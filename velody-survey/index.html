@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>Velody -- Survey</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <!--script type='text/javascript' src='https://www.midijs.net/lib/midi.js'></script-->
+
+    </head>
+    <body>
+        <div class="quiz-container" id="quiz">
+            <h1>Velody -- survey</h1>
+            <div class="quiz-header">
+                <label for="name">Namn</label>
+                <input type="text" id="name" name="name">
+                <label for="id">Id</label>            
+                <input type="text" id="id" name="id"><a name="t1"></a>
+            </div>
+            <div class="quiz-questions">
+                <h2>Fråga 1</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f1-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f1-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupA" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupA" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 2</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f2-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f2-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupB" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupB" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 3</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f3-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f3-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupC" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupC" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 4</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f4-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f4-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupD" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupD" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 5</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f5-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f5-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupE" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupE" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 6</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f6-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f6-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupF" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupF" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 7</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f7-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f7-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupG" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupG" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 8</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f8-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f8-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupH" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupH" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 9</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f9-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f9-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupI" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupI" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>
+                <h2>Fråga 10</h2>
+                <ul>
+                    Lyssna till dessa två stycken<br>
+                    Fil 1:                    
+                    <audio controls> 
+                        <source src="./flac-files/f10-1.flac" type="audio/flac">
+                    </audio>
+                    Fil 2:
+                    <audio controls> 
+                        <source src="./flac-files/f10-2.flac" type="audio/flac">
+                    </audio>
+                    <li>
+                        <input type="radio" id="Fil_1" name="GroupJ" class="answer" />
+                        <label for="a" id="a_text">Jag tror att det är Fil 1 som är steganograferad.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Fil_2" name="GroupJ" class="answer" />
+                        <label for="b" id="b_text">Jag tror att det är Fil 2 som är steganograferad.</label>
+                    </li>
+                </ul>       
+            </div>            
+            <button id="submit">Skicka in</button>
+        </div>
+        <!--Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+    </body>
+</html>
